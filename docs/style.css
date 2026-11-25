@@ -1,0 +1,15 @@
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:#07091a;color:#e9e4f4;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:56px 24px 80px}
+.eyebrow{margin:0 0 14px;color:#f0985c;font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+h1{margin:0 0 18px;font:600 clamp(32px,5.5vw,56px)/1.08 Georgia,"Times New Roman",serif;letter-spacing:-.01em}
+.lede{max-width:40em;color:#c9c1dc;margin:0 0 32px}
+figure{margin:0 0 40px;border-radius:14px;overflow:hidden;border:1px solid #232a5a;background:#050818}
+figure img{display:block;width:100%;height:auto}
+h2{font:600 20px/1.3 Georgia,serif;margin:32px 0 10px}
+section p{max-width:44em;color:#c9c1dc}
+pre{background:#0d1130;border:1px solid #232a5a;border-radius:10px;padding:14px 16px;overflow-x:auto;font:14px/1.5 ui-monospace,Menlo,Consolas,monospace;color:#ffd98a}
+code{background:#0d1130;border-radius:5px;padding:2px 6px;font:14px ui-monospace,Menlo,Consolas,monospace;color:#ffd98a}
+a{color:#f0985c}
+a:focus-visible{outline:2px solid #f0985c;outline-offset:3px}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>neon-skyline: your GitHub year as a New York night skyline</title>
+<meta name="description" content="One tower per week, seven window columns per tower, lit windows rise with your commits. A single animated SVG.">
+<meta property="og:image" content="preview.png">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="eyebrow">neon-skyline</p>
+<h1>Your year on GitHub, as a New York skyline.</h1>
+<p class="lede">One tower per week. Each tower has seven window columns, one per weekday, and the lit windows in a column rise with that day's contributions. Landmarks stand behind the data towers.</p>
+<figure><img src="skyline.svg" width="1400" height="540" alt="Animated New York night skyline built from a year of GitHub contributions: Empire State, Chrysler and One World Trade behind a row of data towers, with the Brooklyn Bridge, a ferry and the Statue of Liberty on the water."></figure>
+<section>
+<h2>Use it for your own account</h2>
+<pre>GITHUB_TOKEN=&lt;token&gt; node skyline.mjs &lt;your-login&gt; skyline.svg</pre>
+<p>Any token that can read public data works. Needs Node 18 or newer. Embed the result with <code>![skyline](skyline.svg)</code>. It is one file with no scripts and no outside requests.</p>
+<h2>Reading it honestly</h2>
+<p>Tower height is the square root of the week's total, so a quiet week is a stub, not an empty slot. The landmarks are decoration and carry no data. The animation (twinkling windows, beacons, car lights, ripples, a ferry and a plane) stops for readers who prefer reduced motion.</p>
+<p><a href="https://github.com/Aditya2375/neon-skyline">Source on GitHub</a>. MIT licensed.</p>
+</section>
+</main>
+</body>
+</html>
